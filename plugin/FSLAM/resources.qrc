@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/plugins/fslam" >
+        <file>icon.png</file>
+		<file>runoff_icon.png</file>
+		<file>logo.png</file>
+    </qresource>
+</RCC>
+
+pyrcc5 -o resources.py resources.qrc

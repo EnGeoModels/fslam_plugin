@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=FSLAM
+qgisMinimumVersion=3.0
+description=Fast Shallow Landslide Assessment Model (FSLAM)
+version=1.0.0
+author=Zizheng Guo
+email=cuggzz@cug.edu.cn, zizhengguo1@gmail.com
+
+about=FSLAM plugin is based on physical model which integrates a simplified hydrological model and the infinite slope theory to compute landslide stability. It aims to reduce computational time and address soil uncertainties when dealing with regional landslide susceptibility assessment. The current version contains two foundational functions: runoff and stability modelling. Raster outputs regarding several aspects can be obtained, including factor of safety (FS), probability of failure (PoF), topography, hydrology and infiltration. It can be used to conduct parameter calibration and landslide susceptibility assessment. It also can be used for the quantitative analysis of impacts of future climate and vegetation changes. See "info" tab of the plugin for more information.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=shallow landslide, physically-based model, dem, soil, land use and land cover, rainfall, topography, runoff, landslide susceptibility, parameter calibration, environmental change, QGIS, python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
